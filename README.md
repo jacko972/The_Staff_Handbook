@@ -1,5 +1,3 @@
-![image](https://git.ngd.io/ngineered/The_Staff_Handbook/blob/2b499c0ec5b586d6c26e4abb6700ac9d52662f47/ngineered-clear.png)
-
 # The Staff Handbook
 
 # 1. Introduction

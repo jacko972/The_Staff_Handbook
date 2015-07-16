@@ -1,4 +1,4 @@
-![image](./ngineered-clear.png)
+![image](https://git.ngd.io/ngineered/The_Staff_Handbook/blob/2b499c0ec5b586d6c26e4abb6700ac9d52662f47/ngineered-clear.png)
 
 # The Staff Handbook
 
@@ -18,5 +18,3 @@ Ngineered encourage all members of staff to contribute to the handbook, via git 
 * [2.0 Absence](./2-Absence.md)
 * [3.0 Pay & Benefits](./3-Pay_+_Benefits.md)
 * [4.0 Policies](./4-Policies.md)
-
-

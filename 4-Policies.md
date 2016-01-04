@@ -14,6 +14,22 @@ While we provide a great deal of flexibility in working hours, we do expect a de
 
 * Please use your Ngineered.com email address for activities you conduct through work. 
 
+## 4.1.1 Work Environment
+
+### INTRODUCTION
+
+All staff are responsible for maintaining a clean, tidy and safe working environment. Our office is also used to entertain customers and is the public face of the company. It's also where we spend a lot of time so lets make it fun and useable.
+
+### KEY POINTS
+
+* If you see something that needs tidying/cleaning, do it.
+
+* If you see something that needs repairing, report it to either Matt or Ric.
+
+* If you have a suggestion to improve the office bring it up with your line manager.
+
+* If you notice we need supplies in the office, be it paper/ink/coffee/etc please try and raise this with Ric or Matt before its runs out.
+
 ## 4.2 Equal Relations Policy
 
 ### INTRODUCTION

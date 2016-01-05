@@ -1,8 +1,6 @@
 buildtestandpush:
   script:
-    - export aws_access_key_id=(echo $AWSAccessKey) $$ aws_secret_access_key=(echo $AWSSecretKey)
     - for i in `ls *.md`; do name=$(echo $i | cut -f 1 -d '.') && pandoc -s $i -o $name.html ; done
-    - pwd
     - aws s3 sync . s3://handbook.ngd.io --exclude="*" --include="*.html" --include="*.png" --region="eu-west-1"
   only:
     - master

@@ -6,7 +6,7 @@ The staff handbook is a reference document providing salient information as to h
 
 The information in this manual describes the company's primary policies and procedures.  This document does not represent a legal obligation on the part of the company, and policies may be changed or clarified at the company's discretion.
 
-### Your Handbook
+## Your Handbook
 
 Ngineered encourage all members of staff to contribute to the handbook, via git and pull requests. The handbook is for us all and if you feel that it would benefit from a new or revisied policy please get involved. All requests will be considered and discussed in the monthly staff meetings.
 

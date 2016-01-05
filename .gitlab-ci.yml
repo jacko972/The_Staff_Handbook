@@ -1,6 +1,6 @@
 buildtestandpush:
   script:
-    - cat <<EOF > .aws/credentials '[default] / aws_access_key_id = $AWSAccessKey \ aws_secret_access_key = $AWSSecretKey \ region = eu-west1' EOF
+    - mkdir .aws && echo -e "[default] \n aws_access_key_id = $AWSAccessKey \n aws_secret_access_key = $AWSSecretKey \n region = eu-west1 \n" > .aws/credentials
     - for i in `ls *.md`; do name=$(echo $i | cut -f 1 -d '.') && pandoc -s $i -o $name.html ; done
     - cat .aws/credentials
   only:

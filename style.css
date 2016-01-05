@@ -11,6 +11,13 @@
     text-transform: lowercase;
 }
 
+#home {
+    position: fixed;
+    z-index: 499;
+    top: 0;
+    left: 0;
+}
+
 #content {
     padding-top: 50px;
     margin-top: 100px;

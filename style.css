@@ -11,6 +11,9 @@
     text-align: right;
     text-transform: lowercase;
 }
+#header.h1 {
+    padding-right: 45px;
+}
 
 #content {
     padding-top: 50px;

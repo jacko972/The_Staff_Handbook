@@ -4,6 +4,6 @@ buildtestandpush:
     - aws configure set aws_access_key_id $AWS_key
     - aws configure set aws_secret_access_key $AWS_secret
     - aws configure set region $AWS_region
-    - aws s3 cp . s3://handbook.ngd.io --exclude="*" --include="*.html" --include="*.png" --region="eu-west-1"
+    - aws s3 cp * s3://handbook.ngd.io --exclude="*" --include="*.html" --include="*.png" --region="eu-west-1"
   only:
     - master

@@ -14,8 +14,8 @@
 #home {
     position: fixed;
     z-index: 499;
-    top: 0;
-    left: 0;
+    top: 5;
+    left: 15;
 }
 
 #content {

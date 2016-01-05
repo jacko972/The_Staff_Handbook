@@ -1,0 +1,6 @@
+  
+buildtestandpush:
+  script:
+    - echo $AWSAccessKey $AWSSecretKey
+  only:
+    - master

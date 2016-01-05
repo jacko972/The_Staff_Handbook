@@ -152,3 +152,12 @@ Customer systems should be connected to according to their information security 
  - 52.30.70.118 (vpn.ngd.io)
 
 This is an OpenVPN service and password auth is done via vyperVPN/Goldenfrog.
+
+## Sections
+
+* [1.0 Introduction](./README.md)
+* [2.0 Absence](./2-Absence.md)
+* [3.0 Pay & Benefits](./3-Pay_+_Benefits.md)
+* [4.0 Policies](./4-Policies.md)
+* [5.0 Information Security](./5-Information_Security.md)
+

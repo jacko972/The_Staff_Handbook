@@ -36,3 +36,5 @@ You will receive email notification from your line manager about the timetable a
 * [2.0 Absence](./2-Absence.md)
 * [3.0 Pay & Benefits](./3-Pay_+_Benefits.md)
 * [4.0 Policies](./4-Policies.md)
+* [5.0 Information Security](./5-Information_Security.md)
+

@@ -3,6 +3,6 @@ buildtestandpush:
     - mkdir .aws && echo -e "[default] \n region=eu-west-1 \n" >> .aws/config && echo -e "[default] \n aws_access_key_id = $AWSAccessKey \n aws_secret_access_key = $AWSSecretKey \n" > .aws/credentials
     - for i in `ls *.md`; do name=$(echo $i | cut -f 1 -d '.') && pandoc -s $i -o $name.html ; done
     - pwd
-    - aws s3 sync . s3://handbook.ngd.io --exclude="*" --include="*.html" --include="*.png" --region="eu-west-1"
+    - aws s3 sync . s3://handbook.ngd.io --exclude="*" --include="*.html" --include="*.png" --region="eu-west-1" --access_key=$AWSAccessKey --secret_key=$AWSSecretKey
   only:
     - master

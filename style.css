@@ -3,7 +3,7 @@
     z-index: 500;
     top: 0;
     left: 0;
-    padding-right: 15px;
+    padding-right: 25px;
     background-color: #0066ff;
     height: 55px;
     width: 100%;
@@ -28,6 +28,14 @@ h1 {
 	font-variant: normal;
 	font-weight: 500;
 	line-height: 26.4px;
+}
+h2 {
+	font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 22.4px;
 }
 h3 {
 	font-family: Helvetica Neue,Helvetica,Arial,sans-serif;

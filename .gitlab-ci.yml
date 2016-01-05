@@ -1,6 +1,6 @@
 buildtestandpush:
   script:
-    - for i in `ls *.md`; do name=$(echo $i | cut -f 1 -d '.') && pandoc -B header.html -c style.css -s $i -o $name.html ; done
+    - for i in `ls *.md`; do name=$(echo $i | cut -f 1 -d '.') && pandoc -B header.html -F footer.html -c style.css -s $i -o $name.html ; done
     - for i in `ls *.html`; do sed -i s/.md/.html/g $i ; done 
     - aws configure set aws_access_key_id $AWS_key
     - aws configure set aws_secret_access_key $AWS_secret

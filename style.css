@@ -3,17 +3,12 @@
     z-index: 500;
     top: 0;
     left: 0;
-    padding-right: 90px;
     background-color: #0066ff;
     height: 55px;
     width: 100%;
     color: white;
     text-align: right;
     text-transform: lowercase;
-}
-#header.h1 {
-    position: relative;
-    padding-right: 145px;
 }
 
 #content {

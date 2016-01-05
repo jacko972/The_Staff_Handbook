@@ -1,4 +1,3 @@
-  
 buildtestandpush:
   script:
     - echo $AWSAccessKey $AWSSecretKey

@@ -1,5 +1,15 @@
+before_script:
+  - docker --host=unix:///var/run/docker.sock info
+  
 buildtestandpush:
   script:
-    - echo $AWSAccessKey $AWSSecretKey
+    - docker login --email=$hub_email --username=$hub_user --password=$hub_password registry.ngd.io:443/
+    - docker build -t ngineered/ngd-runner:latest .
+    - docker run -d --name ngd-runner -t ngineered/ngd-runner:latest ; sleep 1
+    - docker inspect ngd-runner
+    - docker stop ngd-runner
+    - docker rm ngd-runner
+    - docker tag -f ngineered/ngd-runner:latest registry.ngd.io:443/ngineered/ngd-runner:latest
+    - docker push registry.ngd.io:443/ngineered/ngd-runner:latest
   only:
     - master

@@ -1,6 +1,7 @@
 buildtestandpush:
   script:
     - for i in `ls *.md`; do name=$(echo $i | cut -f 1 -d '.') && pandoc -s $i -o $name.html ; done
+    - aws s3 ls
     - aws s3 sync . s3://handbook.ngd.io --exclude="*" --include="*.html" --include="*.png" --region="eu-west-1"
   only:
     - master

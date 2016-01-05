@@ -3,8 +3,9 @@
     z-index: 500;
     top: 0;
     left: 0;
+    padding-right: 15px;
     background-color: #0066ff;
-    height: 45px;
+    height: 55px;
     width: 100%;
     color: white;
     text-align: right;

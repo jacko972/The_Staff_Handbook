@@ -149,7 +149,7 @@ Internal systems should be accessed either via teh VyperVPN service in AWS or ov
 
 Customer systems should be connected to according to their information security policy. Where this is undefined we should limit our system access SSH/RDP etc. to a single IP ingress into their platform. This IP is our VPN endpoint in AWS:
 
- - 52.30.70.118 (vpn.ngd.io)
+ - 52.49.150.14 (vpn.ngd.io)
 
 This is an OpenVPN service and password auth is done via vyperVPN/Goldenfrog.
 
